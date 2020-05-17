@@ -15,19 +15,12 @@ const pages = [
 
 module.exports = {
   siteMetadata: {
-    title: `Listvitinn`,
-    description: `Allar myndlistarsýningar á Ísland á einum stað.`,
-    url: `listvitinn.art`,
+    title: ``,
+    description: ``,
+    url: ``,
     pages: pages
   },
   plugins: [
-    // {
-    //   resolve: `gatsby-source-contentful`,
-    //   options: {
-    //     spaceId: process.env.CONTENTFUL_SPACE_ID,
-    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-    //   },
-    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-layout`,
